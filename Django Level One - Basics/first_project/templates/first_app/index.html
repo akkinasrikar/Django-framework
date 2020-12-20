@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<title>First app</title>
+	<link rel="stylesheet" href="{% static "css/mystyle.css" %}"/>
+</head>
+<body>
+	<h1>This is index.html!</h1>
+	{{ insert_me }}
+	<img src="{% static "images/Capture.png" %}" alt="Uh oh! didn't show!">
+</body>
+</html>
