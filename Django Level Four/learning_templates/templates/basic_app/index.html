@@ -3,4 +3,7 @@
     {% block content %}
     	<h1>Welcome to index.html</h1>
     	<h2>This is an example of template inheritance</h2>
+    	<h1>{{ text|upper }}</h1>
+    	<h1>{{ number|add:"99" }}</h1>
+    	<h1>{{ text|cut:'hello' }}</h1>
     {% endblock %}
